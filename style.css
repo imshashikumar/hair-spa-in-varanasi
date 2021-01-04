@@ -1,0 +1,404 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+}
+.hairspa-header{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(./Img/body\ spa\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+.headimg{
+    width: 50%;
+    height: 100%;
+    background-color:#00000094;
+}
+.headtitle{
+    width: 50%;
+    height: 100%;
+    background-color:#00000094;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    color: white;
+}
+.head-content{
+    font-family: 'Oswald', sans-serif;
+}
+.head-content p{
+     font-size: 15px;
+}
+.head-content h1{
+     font-size: 45px;
+}
+.head-content button{
+     background-color: rgb(165, 162, 162);
+     width: 30%;
+     height: 40px;
+     font-size: 15px;
+     border: 0px;
+     font-weight: bold;
+     margin-top: 10px;
+     
+}
+#hairspa-title{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#hairspa-title {
+   
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+.spa {
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.spa1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+.spa2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+.more-brand{
+   
+   justify-content: center;
+   align-items: center;
+   display: flex;
+  text-align: center;
+}
+.more-brand h1{
+  background-color: rgb(56, 56, 56);
+  width: 25%;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#spasevice1{
+    margin-left: 4px;
+}
+#spaservice-img1{
+   background-image: url("./Img/beautiful-young-woman-lying-waiting-her-massage-spa-concept_144627-42874.jpg");
+}
+#spaservice-img2{
+   background-image: url("./Img/body\ 4.jpg");
+}
+#spaservice-img3{
+   background-image: url("./Img/body\ spa\ 3.jpg");
+}
+#spaservice-img4{
+   background-image: url("./Img/body\ spa\ 2.jpg");
+}
+.spa-service {
+    background-color: rgb(255 255 255);
+    width: 40%;
+    /* border: 2px #e69e49 solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px 24px 0px 0px;
+    box-shadow: #b3b2b2 0 0.5em 2.5em -0.2em;
+}
+.spaservice-size{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+   
+}
+.spaservice-size h2{
+    width: 26%;
+font-size: 25px;
+background-color: #bd9571;
+border-radius: 20px 0px 18px 0px;
+text-align: center;
+color: rgb(27, 25, 25);
+}
+.spa-service h1 {
+    color: #d19f68;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    /* border: 2px red solid; */
+}
+.spa-service p {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.spa-service a {
+    margin-bottom: 16px;
+    padding: 8px 21px;
+    font-size: 17px;
+    font-weight: b300;
+    font-weight: lighter;
+    color: #1d2434;
+    border: 2px solid #1d2434;
+    border-radius: 0;
+    background: none;
+    transition: .3s;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.spa-service a:hover{
+    color: #000000;
+    background: #d19f68;
+}
+.hair-spa-new{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.hairspa1 {
+   
+    width: 40%;
+    height: 201px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: #b3b2b2 0 0.5em 2.5em -0.2em;
+}
+#hairspa-img1{
+    background-image: url("./Img/hair\ spa.jpg");
+}
+#hairspa-img2{
+    background-image: url("./Img/hair\ spa\ 2.jpg");
+}
+.hairspa-img-size {
+    width: 191%;
+    height: 211px;
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hairspa-content h1 {
+    color: #d19f68;
+    font-size: 26px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    /* border: 2px red solid; */
+}
+.hairspa-content h2 {
+    font-size: 22px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+.hairspa-content p {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hairspa-content a {
+    margin-bottom: 16px;
+    padding: 5px 21px;
+    font-size: 17px;
+    font-weight: b300;
+    font-weight: lighter;
+    color: #1d2434;
+    border: 2px solid #1d2434;
+    border-radius: 0;
+    background: none;
+    transition: .3s;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.hairspa-content{
+    padding: 7px;
+}
+.hairspa-content a:hover{
+    color: #000000;
+    background: #d19f68;
+}
+.border {
+    width: 90%;
+    height: 88%;
+    margin: 11px;
+    border: 2px white solid;
+}
+.border2 {
+    width: 90%;
+    height: 84%;
+    margin: 11px;
+    border: 2px white solid;
+}
+.hairspa-benefits{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.harispa-benefits1{
+    width: 60%;
+   
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#hairspa-benefits-img1{
+    background-image: url("./Img/dust.png");
+}
+#hairspa-benefits-img2{
+    background-image: url("./Img/blood.png");
+}
+#hairspa-benefits-img3{
+    background-image: url("./Img/oil.png");
+}
+#hairspa-benefits-img4{
+    background-image: url("./Img/dandruff.png");
+}
+#hairspa-benefits-img5{
+    background-image: url("./Img/stress.png");
+}
+.hairspa-benefits-img-size {
+    width: 19%;
+    height: 200px;
+    background-color: white;
+   
+    height: 83px;
+    border-radius: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* box-shadow: #c7b5b5 0 0.5em 2.5em -0.2em; */
+    margin-right: 20px;
+}
+.harispa-benefits1 {
+    width: 60%;
+    margin-top: 10px;
+    display: flex;
+    padding: 15px;
+    /* border-radius: 30%; */
+    box-shadow: #cac7c7 0 0.5em 2.5em -0.2em;
+}
+.hairspa-benefits-content h1{
+    font-family: 'Oswald', sans-serif;
+    color: #d19f68;
+    font-weight: 300;
+}
+.hairspa-benefits-content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+/* responsive */
+
+@media (max-width: 768px) and (min-width: 360px) {
+    .spa {      
+        flex-direction: column;      
+    }
+    .spa1 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .spa2 {      
+        flex-direction: column;
+        width: 100%;  
+    }
+    .hairspa-header {   
+        flex-direction: column;
+    }
+    .headtitle {
+        width: 100%;
+        
+    }
+    .headimg {
+      display: none;        
+    }
+    .head-content {
+       width: 100%;
+       text-align: center;
+    }
+    .spa-service {
+        width: 81%;       
+        margin-top: 14px;
+    }
+    .spaservice-size {      
+        height: 300px;       
+    }
+    .more-brand h1{     
+        width: 60%;
+        font-size: 18px;    
+      }
+    .border {
+        width: 90%;
+        height: 88%;
+        margin: 16px;
+        border: 2px white solid;
+    }
+    .hair-spa-new {
+        flex-direction: column;
+        width: 93%;
+    }
+    .hairspa1 {
+        width: 90%;
+        height: 175px;
+        margin-top: 10px;
+    }
+    .hairspa-img-size {
+        width: 158%;  
+        margin-top: 21px;
+        height: 387px;      
+    }
+    .hairspa-content p {    
+        font-size: 15px;
+    }
+    .hairspa-content h1 {
+     font-size: 19px;
+    }
+    .hairspa-content h2 {
+        font-size: 18px;
+    }
+    .hairspa-content a {
+        font-size: 13px;
+    }
+    .border2 {
+        width: 86%;
+        height: 26%;
+    }
+    .harispa-benefits1 {
+            flex-direction: column;
+        text-align: center;
+        padding: 23px;
+    }
+    .hairspa-benefits-img-size {
+        width: 102%;
+    }
+}
+
